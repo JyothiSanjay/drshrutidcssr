@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 function dentistJsonLd() {
   return {
     __html: `{
-{
+
   "@context": "https://schema.org",
   "@type": "Dentist",
   "name": "Dr. Shruthi's Dental Clinic",
@@ -51,7 +51,7 @@ function dentistJsonLd() {
   "@type": "AggregateRating",
   "ratingValue": "4.9",
   "reviewCount": "39"
-}
+
 }
 `}
 
@@ -60,7 +60,7 @@ function dentistJsonLd() {
 function faqJsonLd() {
   return {
     __html: `{
-    {
+    
             "@context": "https://schema.org",
           "@type": "FAQPage",
           "mainEntity": [
