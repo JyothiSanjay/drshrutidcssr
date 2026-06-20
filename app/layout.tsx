@@ -53,6 +53,7 @@ function dentistJsonLd() {
         "reviewCount": "39"
       }
     }
+  }
       `
   }
 }
