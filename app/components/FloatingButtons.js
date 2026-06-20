@@ -1,6 +1,5 @@
-import React from 'react'
-import { FaWhatsapp } from "react-icons/fa";
-import { FaPhoneAlt } from 'react-icons/fa';
+"use client";
+import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 
 export default function FloatingButtons({ phoneNumber, whatsappNumber }) {
     return (
