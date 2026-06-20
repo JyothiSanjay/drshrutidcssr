@@ -14,146 +14,145 @@ const geistMono = Geist_Mono({
 function dentistJsonLd() {
   return {
     __html: `{
-
-  "@context": "https://schema.org",
-  "@type": "Dentist",
-  "name": "Dr. Shruthi's Dental Clinic",
-  "url": "https://drshruthisdentalclinic.com/",
-  "image": "https://drshruthisdentalclinic.com/logo512.png",
-  "telephone": "+917400239212",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Building No 1B, Shop No 5, Satyam, Raheja Complex Road",
-    "addressLocality": "Malad East",
-    "addressRegion": "Maharashtra",
-    "postalCode": "400097",
-    "addressCountry": "IN"
-  },
-  "areaServed": [
-  "Malad East",
-  "Malad West",
-  "Goregaon East",
-  "Kandivali East",
-  "Mumbai"
-],
-  "geo": {
-  "@type": "GeoCoordinates",
-  "latitude": "19.19106333174741",
-  "longitude": "72.85945744180492"
-},
-"openingHours": [
-  "Mo-Sa 10:00-20:00"
-],
-"sameAs": [
-  "https://share.google/WmfXY9vXDBZ3XDptL"
-],
-"aggregateRating": {
-  "@type": "AggregateRating",
-  "ratingValue": "4.9",
-  "reviewCount": "39"
-
-}
-`}
-
+      "@context": "https://schema.org",
+      "@type": "Dentist",
+      "name": "Dr. Shruthi's Dental Clinic",
+      "url": "https://drshruthisdentalclinic.com/",
+      "image": "https://drshruthisdentalclinic.com/logo512.png",
+      "telephone": "+917400239212",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Building No 1B, Shop No 5, Satyam, Raheja Complex Road",
+        "addressLocality": "Malad East",
+        "addressRegion": "Maharashtra",
+        "postalCode": "400097",
+        "addressCountry": "IN"
+      },
+      "areaServed": [
+        "Malad East",
+        "Malad West",
+        "Goregaon East",
+        "Kandivali East",
+        "Mumbai"
+      ],
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "19.19106333174741",
+        "longitude": "72.85945744180492"
+      },
+      "openingHours": [
+        "Mo-Sa 10:00-20:00"
+      ],
+      "sameAs": [
+        "https://share.google/WmfXY9vXDBZ3XDptL"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "39"
+      }
+    }`
+  }
 }
 
 function faqJsonLd() {
   return {
-    __html: `{
-    
-            "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-          {
-            "@type": "Question",
+    __html: `
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
           "name": "How much does teeth cleaning cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-          "text": "Costs vary depending on condition. Contact us for details."
-      }
-    },
-          {
-            "@type": "Question",
+            "text": "Costs vary depending on condition. Contact us for details."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Do I need an appointment?",
           "acceptedAnswer": {
             "@type": "Answer",
-          "text": "Appointments are recommended to avoid waiting time."
-      }
-    },
-          {
-            "@type": "Question",
+            "text": "Appointments are recommended to avoid waiting time."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "How much does a dental implant cost in Mumbai?",
           "acceptedAnswer": {
             "@type": "Answer",
-          "text": "Dental implant costs in Mumbai typically range from ₹25,000 to ₹60,000 per tooth depending on the implant brand, bone condition, and prosthetic type. At Shruthi Dental Clinic, we offer premium dental implants at competitive prices."
-      }
-    },
-          {
-            "@type": "Question",
+            "text": "Dental implant costs in Mumbai typically range from ₹25,000 to ₹60,000 per tooth depending on the implant brand, bone condition, and prosthetic type. At Shruthi Dental Clinic, we offer premium dental implants at competitive prices."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Is root canal treatment painful?",
           "acceptedAnswer": {
             "@type": "Answer",
-          "text": "Modern root canal treatment is virtually painless. We use advanced local anaesthesia and rotary endodontic techniques so you feel little to no discomfort during the procedure. Most patients are surprised at how easy and quick the treatment is."
-      }
-    },
-          {
-            "@type": "Question",
+            "text": "Modern root canal treatment is virtually painless. We use advanced local anaesthesia and rotary endodontic techniques so you feel little to no discomfort during the procedure. Most patients are surprised at how easy and quick the treatment is."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "What teeth straightening options are available?",
           "acceptedAnswer": {
             "@type": "Answer",
-          "text": "We offer traditional metal braces, clear ceramic braces, lingual (hidden) braces, and Invisalign clear aligners. Our orthodontist will evaluate your bite and alignment to recommend the best treatment for your age, lifestyle, and budget."
-      }
-    },
-          {
-            "@type": "Question",
+            "text": "We offer traditional metal braces, clear ceramic braces, lingual (hidden) braces, and Invisalign clear aligners. Our orthodontist will evaluate your bite and alignment to recommend the best treatment for your age, lifestyle, and budget."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Do you treat children at Shruthi Dental Clinic?",
           "acceptedAnswer": {
             "@type": "Answer",
-          "text": "Yes. We have dedicated paediatric dental services for children of all ages. Our child-friendly environment and gentle approach make dental visits stress-free for kids, helping them build healthy oral hygiene habits from a young age."
-      }
-    },
-          {
-            "@type": "Question",
+            "text": "Yes. We have dedicated paediatric dental services for children of all ages. Our child-friendly environment and gentle approach make dental visits stress-free for kids, helping them build healthy oral hygiene habits from a young age."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "How often should I visit the dentist?",
           "acceptedAnswer": {
             "@type": "Answer",
-          "text": "We recommend a dental checkup and professional teeth cleaning every 6 months for most patients. Regular visits help detect cavities, gum disease, and oral cancer early, saving you time, money, and discomfort in the long run."
-      }
-    },
-          {
-            "@type": "Question",
+            "text": "We recommend a dental checkup and professional teeth cleaning every 6 months for most patients. Regular visits help detect cavities, gum disease, and oral cancer early, saving you time, money, and discomfort in the long run."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Do you offer emergency dental treatment in Mumbai?",
           "acceptedAnswer": {
             "@type": "Answer",
-          "text": "Yes, Shruthi Dental Clinic provides emergency dental care for toothaches, broken teeth, lost fillings, and dental trauma. Call us immediately. We keep same-day emergency slots available for urgent cases."
-      }
-    },
-          {
-            "@type": "Question",
+            "text": "Yes, Shruthi Dental Clinic provides emergency dental care for toothaches, broken teeth, lost fillings, and dental trauma. Call us immediately. We keep same-day emergency slots available for urgent cases."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Is this the best dental clinic in Malad?",
           "acceptedAnswer": {
             "@type": "Answer",
-          "text": "We are proud to be one of the leading dental clinics in Malad, offering quality and reliable dental treatments at affordable prices."
-      }
-    },
-          {
-            "@type": "Question",
+            "text": "We are proud to be one of the leading dental clinics in Malad, offering quality and reliable dental treatments at affordable prices."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Do you provide emergency dental treatment in Malad?",
           "acceptedAnswer": {
             "@type": "Answer",
-          "text": "Yes, we offer emergency dental treatments in Malad for severe tooth pain, broken teeth, swelling, dental trauma, and sudden infections. Same-day appointments may be available depending on urgency."
-      }
-    },
-          {
-            "@type": "Question",
+            "text": "Yes, we offer emergency dental treatments in Malad for severe tooth pain, broken teeth, swelling, dental trauma, and sudden infections. Same-day appointments may be available depending on urgency."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "What treatments are available at your dental clinic in Malad?",
           "acceptedAnswer": {
             "@type": "Answer",
-          "text": "At our Malad dental clinic, we provide root canal treatment, dental implants, teeth cleaning and polishing, teeth whitening, braces and aligners, smile designing, tooth extraction, pediatric dentistry, gum treatment, crowns and bridges."
-      }
-    }
-          ]
-}`
+            "text": "At our Malad dental clinic, we provide root canal treatment, dental implants, teeth cleaning and polishing, teeth whitening, braces and aligners, smile designing, tooth extraction, pediatric dentistry, gum treatment, crowns and bridges."
+          }
+        }
+      ]
+}
+    `
   }
 }
 
