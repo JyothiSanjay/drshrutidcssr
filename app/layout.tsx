@@ -29,9 +29,13 @@ function dentistJsonLd() {
         "addressCountry": "IN"
       },
       "areaServed": [
+        "Near Malad",
         "Malad East",
         "Malad West",
+        "Malad",
         "Goregaon East",
+        "Goregaon West",
+        "Goregaon",
         "Kandivali East",
         "Mumbai"
       ],
@@ -41,7 +45,7 @@ function dentistJsonLd() {
         "longitude": "72.85945744180492"
       },
       "openingHours": [
-        "Mo-Sa 10:00-20:00"
+        "Mo-Sa 10:00 AM - 01:00 PM IST, Mo-Sa 06:00 PM - 09:00 PM IST"
       ],
       "sameAs": [
         "https://share.google/WmfXY9vXDBZ3XDptL"
@@ -180,7 +184,7 @@ export default function RootLayout({
           content="Looking for the best dentist in Malad East, Mumbai? Dr. Shruthi's Dental Clinic offers root canal treatment, dental implants, teeth cleaning, pediatric dentistry, smile makeovers and emergency dental care." />
 
         <meta name="keywords"
-          content="dentist, dental clinic, root canal, teeth cleaning, cosmetic dentistry, malad east, mumbai dentist, best dental clinic, best dentist in malad east, best dentist near me, pediatric dentist" />
+          content="dentist, dental clinic, root canal, teeth cleaning, cosmetic dentistry, malad east, mumbai dentist, best dental clinic, best dentist in malad east, best dentist near me, pediatric dentist, dentist near me" />
         <meta name="author" content="Dr. Shruthi's" />
 
         <meta property="og:title" content="Dr. Shruthi's Dental Clinic" />
