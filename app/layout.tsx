@@ -18,7 +18,8 @@ function dentistJsonLd() {
       "@type": "Dentist",
       "name": "Dr. Shruthi's Dental Clinic",
       "url": "https://drshruthisdentalclinic.com/",
-      "image": "https://drshruthisdentalclinic.com/logo512.png",
+      "image": "https://drshruthisdentalclinic.com/",
+      "logo": "https://drshruthisdentalclinic.com/",
       "telephone": "+917400239212",
       "address": {
         "@type": "PostalAddress",
@@ -173,7 +174,7 @@ export default function RootLayout({
         <link rel="icon" href="/assets/logo.png" />
 
         <meta name="theme-color" content="#000000" />
-        <link rel="apple-touch-icon" href="logo192.png" />
+        <link rel="apple-touch-icon" href="logo.png" />
 
         {/* <link rel="manifest" href="/manifest.json" /> */}
 
@@ -190,14 +191,14 @@ export default function RootLayout({
         <meta property="og:title" content="Dr. Shruthi's Dental Clinic" />
         <meta property="og:description" content="Gentle, advanced dental care for a healthy smile." />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://drshruthisdentalclinic.com/logo512.png" />
+        <meta property="og:image" content="https://drshruthisdentalclinic.com/logo.png" />
         <meta property="og:url" content="https://drshruthisdentalclinic.com/" />
         <meta property="og:site_name" content="Dr. Shruthi's Dental Clinic" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Dr. Shruthi's Dental Clinic" />
         <meta name="twitter:description" content="Gentle, advanced dental care for a healthy smile." />
-        <meta name="twitter:image" content="https://drshruthisdentalclinic.com/logo512.png" />
+        <meta name="twitter:image" content="https://drshruthisdentalclinic.com/logo.png" />
         <meta name="geo.region" content="IN-MH" />
         <meta name="geo.placename" content="Malad East, Mumbai" />
         <meta name="geo.position" content="19.19106333174741, 72.85945744180492" />
