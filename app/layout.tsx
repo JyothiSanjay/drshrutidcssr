@@ -179,7 +179,7 @@ export default function RootLayout({
 
         <link rel="canonical" href="https://drshruthisdentalclinic.com/" />
 
-        <title>Best Dentist in Malad East Mumbai | Dr. Shruthi's Dental Clinic</title>
+        <title>Best Dentist in Malad East Mumbai Near Me| Top Dental Clinic Near Me | Dr. Shruthi's Dental Clinic</title>
         <meta name="description"
           content="Looking for the best dentist in Malad East, Mumbai? Dr. Shruthi's Dental Clinic offers root canal treatment, dental implants, teeth cleaning, pediatric dentistry, smile makeovers and emergency dental care." />
 
