@@ -5,14 +5,10 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
       {
-        userAgent: 'Googlebot',
+        userAgent: '*',
         allow: ['/'],
         disallow: '/private/',
-      },
-      {
-        userAgent: ['Applebot', 'Bingbot'],
-        disallow: ['/'],
-      },
+      }
     ],
     host: 'https://drshruthisdentalclinic.com',
   }
