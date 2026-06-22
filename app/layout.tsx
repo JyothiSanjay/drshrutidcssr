@@ -16,10 +16,11 @@ function dentistJsonLd() {
     __html: JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Dentist",
+      "@id": "https://drshruthisdentalclinic.com/#dentist",
       "name": "Dr. Shruthi's Dental Clinic",
       "url": "https://drshruthisdentalclinic.com/",
-      "image": "https://drshruthisdentalclinic.com/",
-      "logo": "https://drshruthisdentalclinic.com/",
+      "image": "https://drshruthisdentalclinic.com/assets/gallery/DSC01771.webp",
+      "logo": "https://drshruthisdentalclinic.com/assets/logo.png",
       "telephone": "+917400239212",
       "address": {
         "@type": "PostalAddress",
@@ -45,9 +46,11 @@ function dentistJsonLd() {
         "latitude": "19.19106333174741",
         "longitude": "72.85945744180492"
       },
+      "hasMap": "https://maps.google.com/?q=19.19106333174741,72.85945744180492",
       "openingHours": [
-        "Mo-Sa 10:00 AM - 01:00 PM IST, Mo-Sa 06:00 PM - 09:00 PM IST"
-      ],
+        "Mo-Sa 10:00-13:00",
+        "Mo-Sa 18:00-21:00"
+     ],
       "sameAs": [
         "https://share.google/WmfXY9vXDBZ3XDptL"
       ],
@@ -165,6 +168,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  console.log(dentistJsonLd().__html);
   return (
     <html
       lang="en"
